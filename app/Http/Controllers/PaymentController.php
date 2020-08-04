@@ -23,7 +23,7 @@ class PaymentController extends Controller
         // $CommandID='SalaryPayment';
         // $Amount='200';
         // $PartyA='600622';
-        // $PartyB='254704922042';
+        // $PartyB='254704...';
         // $Remarks='Being payment for the services renderered to the company. Thank you';
         // $QueueTimeOutURL='https://72e905f6e4de.ngrok.io/timeout';
         // $ResultURL='https://72e905f6e4de.ngrok.io';
@@ -36,7 +36,7 @@ class PaymentController extends Controller
         // $ShortCode='600622';
         // $CommandID='CustomerPayBillOnline';
         // $Amount=5000;
-        // $Msisdn='254704922042';
+        // $Msisdn='254704...';
         // $BillRefNumber=strtoupper(Str::random(10));
         // $mpesa->ValidationURL='https://72e905f6e4de.ngrok.io/validation';
         // $mpesa->ConfirmationUrl='https://72e905f6e4de.ngrok.io/confirmation';
@@ -47,9 +47,10 @@ class PaymentController extends Controller
         $LipaNaMpesaPasskey='bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919';
         $TransactionType='CustomerPayBillOnline';
         $Amount=5000;
-         $PartyA=254704922942;
+        //phone number and partyA are the same
+         $PartyA=254704...;
         $PartyB='174379';
-        $PhoneNumber=254704922942;
+        $PhoneNumber=254704...;
         $CallBackURL='https://72e905f6e4de.ngrok.io/timeout';
         $AccountReference='123456';
         $TransactionDesc='Test for stk push';
